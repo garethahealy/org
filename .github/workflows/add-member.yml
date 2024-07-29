@@ -1,7 +1,8 @@
 name: Add a new member when issue raised
 on:
   issues:
-    types:  ["opened"]
+    types:
+      - opened
 
 # Declare default permissions as read only.
 permissions: read-all
